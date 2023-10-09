@@ -1,0 +1,170 @@
+﻿{
+  "apiResource": "Auth",
+  "apiScopes": [
+    {
+      "apiScope": "User",
+      "policies": [
+        {
+          "Policy": "Search",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Read",
+          "Order": "2",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "3",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Update",
+          "Order": "4",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Delete",
+          "Order": "5",
+          "Grade": "0"
+        },
+        {
+          "Policy": "TwoFactorEnabled",
+          "Order": "6",
+          "Grade": "0"
+        }
+      ]
+    },
+    {
+      "apiScope": "Tenant",
+      "policies": [
+        {
+          "Policy": "Search",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Read",
+          "Order": "2",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "3",
+          "Grade": "1"
+        },
+        {
+          "Policy": "Update",
+          "Order": "4",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Delete",
+          "Order": "5",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Activate",
+          "Order": "6",
+          "Grade": "1"
+        }
+      ]
+    },
+    {
+      "apiScope": "Role",
+      "policies": [
+        {
+          "Policy": "Search",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Read",
+          "Order": "2",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "3",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Update",
+          "Order": "4",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Delete",
+          "Order": "5",
+          "Grade": "0"
+        }
+      ]
+    },
+    {
+      "apiScope": "Branch",
+      "policies": [
+        {
+          "Policy": "Search",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Read",
+          "Order": "2",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "3",
+          "Grade": "1"
+        },
+        {
+          "Policy": "Update",
+          "Order": "4",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Delete",
+          "Order": "5",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Activate",
+          "Order": "6",
+          "Grade": "1"
+        }
+      ]
+    },
+    {
+      "apiScope": "BranchContract",
+      "policies": [
+        {
+          "Policy": "Read",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "2",
+          "Grade": "0"
+        }
+      ]
+    },
+    {
+      "apiScope": "UserBranch",
+      "policies": [
+        {
+          "Policy": "Read",
+          "Order": "1",
+          "Grade": "0"
+        },
+        {
+          "Policy": "Create",
+          "Order": "2",
+          "Grade": "0"
+        }
+      ]
+    }
+  ]
+}
